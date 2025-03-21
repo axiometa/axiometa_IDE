@@ -1,0 +1,10 @@
+^C:\USERS\DUMCIUS\DOCUMENTS\001_AXIOMETA\001_SOFTWARE\AXIOMETA_AI_2\BUILD\WINDOWS\X64\CMAKEFILES\8B4EC275E48FF11B8E84455050D4C3BC\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

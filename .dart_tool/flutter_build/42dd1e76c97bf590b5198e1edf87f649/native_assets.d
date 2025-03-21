@@ -1,0 +1,1 @@
+ C:\\Users\\DUMCIUS\\Documents\\001_Axiometa\\001_Software\\axiometa_ai_2\\.dart_tool\\flutter_build\\42dd1e76c97bf590b5198e1edf87f649\\native_assets.yaml: 
